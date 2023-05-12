@@ -1,0 +1,224 @@
+
+/*
+================================
+  -------query for desk--------  
+================================
+*/
+
+@media screen and (max-width:1700px){
+    .logo-nav{
+        display: none;
+    }
+}
+
+/*
+================================
+ -------query for tablet--------  
+================================
+*/
+
+
+
+@media screen and (max-width: $breakpoint-extra-large){
+    body {
+        height: 100%;
+        width: 100%;
+        .background-img {
+            width: 100%;
+            height: 60rem;
+    
+            .nav-bar {
+                justify-content: space-between;
+                padding: 0 7rem;
+                margin-bottom: 3rem;
+    
+                .logo-nav {
+                    display: block;
+                }
+    
+                .fdebbo {
+                    font-size: 3rem;
+                }
+    
+                .list-nav {
+                    display: flex;
+                    flex-direction: column;
+                    position: fixed;
+                    width: 35%;
+                    height: 750px;
+                    top: 0;
+                    left: -450px;
+                    background-color: #823c3c;
+                    padding: 40px;
+                    z-index: 1;
+    
+                    ul {
+                        li {
+                            margin-top: 2rem;
+    
+                            a {
+                                color: black;
+                            }
+                        }
+                    }
+                }
+    
+                .btn-nav {
+                    display: none;
+                }
+    
+                .bars__menu {
+                    width: 3rem;
+                    height: 3rem;
+                    cursor: pointer;
+                    z-index: 1000;
+                }
+    
+                .bars__menu span {
+                    display: block;
+                    width: 100%;
+                    height: 2px;
+                    transform-origin: 0px 100%;
+                    background-color: #823c3c;
+                    margin-top: 6px;
+                    transition: all 300ms;
+                }
+    
+                .activeline1__bars-menu {
+                    transform: rotate(45deg) translate(-2px, 1px);
+                }
+    
+                .activeline2__bars-menu {
+                    opacity: 0;
+                    margin-left: -30px;
+                }
+    
+                .activeline3__bars-menu {
+                    transform: rotate(-45deg) translate(-4px, 2px);
+                }
+            }
+    
+            .text-right {
+                width: 50%;
+    
+                .text2 {
+                    h1 {
+                        font-size: 2rem;
+                        padding: 4rem auto;
+                    }
+                }
+            }
+    
+            .text-left {
+                display: block;
+                width: 50%;
+                align-items: start;
+    
+                .text1 {
+                    font-size: 2rem;
+    
+                    h3 {
+                        margin-bottom: 0px;
+                    }
+                }
+    
+                .btn-nav {
+                    padding: 0 7rem;
+                }
+            }
+        }
+    
+        .servicios-mid {
+            width: 100%;
+            height: auto;
+            display: inline-block;
+            position: initial;
+    
+            .box-container {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: repeat(3, 1fr);
+            }
+        }
+        
+
+        .background-img2 {
+            width: 100%;
+            height: 60rem;
+            display: flex;
+            flex-direction: column;
+    
+            .text-left2 {
+                display: flex;
+                width: 50%;
+                height: 100%;
+                justify-content: center;
+    
+                .text-1 {
+                    .tips {
+                        margin: 0px;
+                        padding: 0px;
+                    }
+                }
+            }
+            .box-th{
+
+            }
+        }
+    
+        .text-right2 {
+            width: 100%;
+            padding: 2rem;
+    
+            .lefttex {
+                width: 50%;
+                padding: 2rem;
+            }
+    
+            .righttex {
+                width: 50%;
+                padding: 2rem;
+            }
+        }
+    
+        .footer {
+            display: block;
+            .li-footer {
+                .list-nav {
+                    width: 100%;
+                }
+            }
+    
+            .socials {
+                width: 100%;
+    
+                a {
+                    font-size:1.2rem
+                }
+            }
+        }
+        .back_menu{
+            display: none;
+            position: fixed;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 750px;
+            background: rgba(0,0,0,0.5);
+        }
+    }
+}
+
+
+
+
+/*
+================================
+ -------query for iphonet--------  
+================================
+*/
+
+/* 
+@media screen and (max-width:$breakpoint-small){
+    
+} */

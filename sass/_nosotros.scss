@@ -1,0 +1,75 @@
+.title2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    .conocenos{
+        width: 80%;
+        margin: 13rem auto;
+        .i{
+            text-align: center;
+            font-size: 10rem;
+            text-transform: capitalize;
+            font-weight: 700;
+            color: #fff;
+        }
+    }
+}
+
+.border{
+    margin-top: 1rem;
+    border-top: solid 1px;
+    border-color: #823c3c;
+}
+.about{
+    width: 100%;
+    height: 80rem;
+    display: flex;
+    
+    .L{
+        width: 50%;
+        height: 100%;
+        overflow: hidden;
+        .mel{
+            background-image: url(../img/melani.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .img-x2{
+            width: 80%;
+            height: 90%;
+            margin: auto;
+            padding: 10px;
+            background-image: url(../img/8cce295d-070a-4b0e-bfc3-12d72a82e91d.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        }
+        .sub-title{
+            display: inline-block;
+            margin-left: 8rem;
+            margin-top: 5rem;
+            margin-bottom: 1rem;
+        }
+    }
+
+
+    .R{
+        width: 50%;
+        height: 100%;
+        .text-1{
+            margin-top: 5rem;
+            h2{
+                padding: 0px 4rem;    
+            }
+            p{
+                font-size: 1.8rem;
+                padding: 4rem;
+               
+            }
+            
+        }
+    }
+
+
+   
+}

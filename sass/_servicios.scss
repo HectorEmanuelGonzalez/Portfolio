@@ -1,0 +1,98 @@
+.tratamientos{
+    background-image: url(../img/Premium\ Photo\ |\ Elevated\ view\ of\ various\ barber\ tools\ on\ black\ background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.proyects-container{
+    width: 100%;
+    margin: auto;
+    padding: 40px;
+    background-color: #F6F5F4;
+   
+
+    .pr-container{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4rem;
+        margin-top: 40px;
+        justify-content: center;
+
+    }
+
+    .proycts{
+        width: 446px;
+        height: 556px;
+        background-color: #222831;
+        padding: 3rem;
+        border-radius: 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+
+        .btn-proyetc{
+            display: flex;
+            width: 90%;
+
+            .btn-4{
+                display: inline;
+                width: 10rem;
+                color: #9ca3af;
+                background-color: black;
+                font-size: 15px;
+                text-align: center;
+                margin: auto;
+                border-radius: 4px;
+            }
+        }
+
+        .name-proyects{
+            margin-top: 20px;
+        }
+
+        p{
+            margin-top: 20px;
+        }
+
+        .btn-proyetc{
+            display: flex;
+            width: 90%;
+            margin: auto;
+            justify-content: space-between;
+
+            .btn-4{
+            display: inline-block;
+            background-color: #9ca3af;
+            color: black;
+            font-weight: 500;
+            font-size: 13px;
+            text-align: center;
+            padding: 10px;
+            box-shadow: 0 0 10px #0004;
+            transition: all .3s;
+            }
+
+            .btn-4:hover{
+            background-color: #babfc7;
+            border-color: #babfc7;
+            box-shadow: 0 0 10px #0004;
+            transition: all .3s;    
+            }
+        }
+    }
+
+    .imgproyectos{
+        max-width: 800px;
+        img{
+            width: 65%;
+        }
+    }
+
+    .title-proyects{
+        display: flex;
+        margin-right: 2rem;
+        white-space: nowrap;
+    }
+
+
+}

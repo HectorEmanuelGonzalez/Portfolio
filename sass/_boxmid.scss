@@ -1,0 +1,53 @@
+.servicios-mid {
+    width: 75%;
+    height: 43rem;
+    padding: 40px;
+    position: absolute;
+    left: 18rem;
+    top: 62.5rem;
+    
+    .box-container{
+        display: grid;
+        margin: 0 auto;
+        height: 100%;
+        grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+        box-shadow: 5px 5px 10px;
+        p{
+            font-size: 1.5rem;
+            text-transform: capitalize;
+        }
+    }
+
+    .posicition{
+        height: 17.6rem;
+    }
+
+    .posicition2{
+        height: 17.6rem;
+    }
+
+   
+
+    .box{
+        background-color: #f4f4f4;
+        border:solid 2px #f8f8f8;
+        padding: 1rem 1rem;
+        text-align: center;
+        transition: all .3s ease;
+        cursor: pointer;
+        transition: all ease .5s;
+        
+        .icons{
+            width: 5rem;
+            height: auto;
+            padding: 2rem 0;
+        }
+       
+    }
+    
+    .box:hover{
+        border-color: #823c3c;
+        
+    }
+
+}

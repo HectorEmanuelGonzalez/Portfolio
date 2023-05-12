@@ -1,0 +1,98 @@
+  /*
+================================
+  -------globales--------  
+================================
+  */
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+ }
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+ }
+
+body{
+   font-size: 1.3rem;
+   line-height: 1.6;
+   font-family: 'Montserrat', sans-serif,'Poppins', sans-serif;
+   max-width: 1428px; 
+   height: 1200px;
+   position: relative;
+}
+
+ ul {
+    list-style: none;
+ }
+
+ h1, h3{
+   color: rgb(244, 244, 244, .9);
+ }
+
+ h2{
+   text-transform: capitalize;
+   font-size: 1.7rem;
+ }
+
+
+
+ a {
+    text-decoration: none;
+    text-transform: capitalize;
+    display: inline-block;
+    font-size: 1.5rem;
+    padding: 10px 10px;
+    color: rgb(244, 244, 244, .9);
+    cursor: pointer;
+    transition: all ease .5s;
+ }
+
+ .p-title{
+   font-size: 1.7rem;
+   text-transform: capitalize;
+   color: #823c3c;
+
+ }
+
+ span{
+   text-transform: capitalize;
+   color: #823c3c;
+ }
+ 
+ a:hover{
+   color: #823c3c;
+ }
+ .socials{
+  cursor: pointer;
+ }
+ .none{
+  display: none;
+}
+
+
+  //variables
+  
+   /*
+================================
+  -------colors--------  
+================================
+  */
+
+  $colorTxt: color rgb(244, 244, 244, .9);
+  $colorTxtSec: color rgb(244, 244, 244, .5);
+  $colorSpan: color #823c3c;
+
+  /*
+================================
+  -------breakpoints--------  
+================================
+  */
+  
+  $breakpoint-small: 576px;
+  $breakpoint-medium: 768px;
+  $breakpoint-large: 992px;
+  $breakpoint-extra-large: 1200px;

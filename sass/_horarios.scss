@@ -1,0 +1,79 @@
+.horarios{
+    height: 90rem;
+    background-image: url(../img/NAILS\ NEON\ SIGN\ 2\ -\ Cool\ White\ _\ X-Small_\ W\ 45cm\ *\ H\ 34cm_\ 18”\ 13”.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.reserva{
+    text-align: center;
+    padding:4rem;
+    h2{
+        font-size: 4rem;
+        border-bottom: solid 2px;
+        border-color: #823c3c;
+    }
+}
+
+.container-flex{
+    display: flex;
+}
+.atencion{
+    width: 50%;
+    height: 50rem; 
+    padding: 4rem;
+   
+
+    .hours-pelu{
+        height: 90%;
+        border: solid 1px;
+        border-color: #823c3c;
+        padding: 2rem;
+        .title-l{
+            text-align: center;
+            text-transform: capitalize;
+            font-weight: 700;
+            font-size: 2rem;
+            padding: 1rem;
+            color: #823c3c;
+        }
+        .libre{
+            margin: 1rem 0;
+            p{
+                font-size: 1.8rem;
+                font-weight: 300;
+            }
+        }
+    }
+
+}
+
+.atencion-2{
+    width: 50%;
+    height: 50rem; 
+    padding: 4rem;
+
+    .hours-nails{
+        height: 90%;
+        border: solid 1px;
+        border-color: #823c3c;
+        padding: 2rem;
+
+        .title-r{
+            text-align: center;
+            text-transform: capitalize;
+            font-weight: 700;
+            font-size: 2rem;
+            padding: 1rem;
+            color: #823c3c;
+        }
+        .libre-r{
+            margin: 1rem 0;
+            p{
+                font-size: 1.8rem;
+                font-weight: 300;
+            }
+        }
+
+    }
+}

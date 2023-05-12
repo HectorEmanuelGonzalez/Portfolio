@@ -1,0 +1,146 @@
+.background-img{
+    width: 100%;
+    height: 70%;
+    background-color: #282626;
+    display: flex;
+    flex-wrap: wrap;
+    
+    .nav-bar{
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 20px;
+       
+        .list-nav{
+            display: flex;
+            li{
+                margin-left: 10px;
+            }
+            
+        }
+        .logo{
+            .svg-logo{
+                padding: 2rem;
+            }
+        }
+    }
+
+    .btn-nav{
+        .btn-1{
+            display: inline-block;
+            border: solid 1px;
+            border-color: antiquewhite;
+            border-radius: 83px;
+            padding: 8px  35px;
+        }
+        .btn-1:hover{
+            border-color: #823c3c;
+
+        }
+        
+        
+    }
+
+    .text-left{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+       
+        h3{
+            padding: 70px;
+            margin-bottom: 25rem;
+            font-size: 2rem;
+
+        }
+        
+    }
+    .text-right{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        
+        h1{
+            padding: 70px;
+            font-size: 3rem;
+        }
+      
+    }
+
+}
+
+.background-img2{
+    width: 100%;
+    height: 70%;
+    background-color: #F6F5F4;
+    display: flex;
+
+
+    .text-left2{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+
+        .tips{
+            padding: 70px;
+            margin-bottom: 25rem;
+            font-size: 2rem;
+            text-transform: capitalize;
+            }
+    }
+
+
+    .text-right2{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        p{
+            padding: 2rem 0;
+        }
+
+
+        .lefttex{
+            width: 50%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            
+            .text-2{
+                width: 100%;
+
+            }
+
+            
+        }
+
+        .righttex{
+            width: 50%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            .text-2{
+                width: 100%;
+            }
+            
+        }
+
+    }
+
+
+
+}
+.box-th{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}

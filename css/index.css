@@ -38,6 +38,14 @@ h2 {
   font-size: 1.7rem;
 }
 
+.btn-1 {
+  transition: all ease 0.1s;
+  animation-name: colores;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
 a {
   text-decoration: none;
   text-transform: capitalize;
@@ -82,6 +90,22 @@ a:hover {
   -------breakpoints--------  
 ================================
   */
+/*
+================================
+  -------animaciones--------  
+================================
+  */
+@keyframes colores {
+  0% {
+    border-color: #f4ddb4;
+  }
+  50% {
+    border-color: #ff7876;
+  }
+  100% {
+    border-color: #823c3c;
+  }
+}
 .background-img {
   width: 100%;
   height: 70%;
@@ -277,9 +301,33 @@ a:hover {
   color: rgba(244, 244, 244, 0.9);
 }
 
-.title2 {
+main .card {
+  width: 80%;
+  margin: 0 auto;
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 5px 5px 10px;
+}
+main .card .g-0 {
+  height: 100%;
+}
+main .card .g-0 .card-body {
+  height: 100%;
+  text-align: center;
+  margin-top: 80px;
+}
+main .card .debox {
+  height: 100%;
+  padding: 10px;
+}
+main .card .debox img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
+}
+
+.title2 {
+  width: 100%;
   display: flex;
 }
 .title2 .conocenos {
@@ -349,6 +397,7 @@ a:hover {
   height: 90rem;
   background-image: url(../img/NAILS\ NEON\ SIGN\ 2\ -\ Cool\ White\ _\ X-Small_\ W\ 45cm\ *\ H\ 34cm_\ 18”\ 13”.jpg);
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
 }
 
@@ -426,11 +475,25 @@ a:hover {
   background-size: cover;
 }
 
+.title-service-1 {
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+}
+.title-service-1 h2 {
+  font-size: 2.5rem;
+  color: #823c3c;
+}
+
 .proyects-container {
   width: 100%;
   margin: auto;
   padding: 40px;
   background-color: #F6F5F4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .proyects-container .pr-container {
   display: flex;
@@ -468,6 +531,7 @@ a:hover {
 }
 .proyects-container .proycts p {
   margin-top: 20px;
+  color: #F6F5F4;
 }
 .proyects-container .proycts .btn-proyetc {
   display: flex;
@@ -503,6 +567,14 @@ a:hover {
   margin-right: 2rem;
   white-space: nowrap;
 }
+.proyects-container .box-trat {
+  display: inline-block;
+}
+.proyects-container .box-trat h2 {
+  margin: 0;
+  font-size: 2rem;
+  color: #823c3c;
+}
 
 /*
 ================================
@@ -512,6 +584,18 @@ a:hover {
 @media screen and (max-width: 1700px) {
   .logo-nav {
     display: none;
+  }
+  .container-flex {
+    display: flex;
+    flex-direction: column;
+  }
+  .container-flex .hours-box {
+    width: 100%;
+    justify-content: center;
+  }
+  .container-flex .hours-box1 {
+    width: 100%;
+    display: flex;
   }
 }
 /*
@@ -662,15 +746,156 @@ a:hover {
     height: 750px;
     background: rgba(0, 0, 0, 0.5);
   }
+  body .title2 .conocenos .i {
+    font-size: 5rem;
+  }
+  body .container-flex {
+    display: flex;
+    flex-direction: column;
+  }
+  .tratamientos {
+    min-width: 100%;
+  }
+  .tratamientos .title2 {
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .tratamientos .title2 .conocenos p {
+    font-size: 5rem;
+  }
+  .tratamientos .proyects-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .tratamientos .proyects-container .title-proyects {
+    padding: 1rem;
+    margin: 0 auto;
+  }
 }
 /*
 ================================
- -------query for iphonet--------  
+ -------query for tablet--------  
 ================================
 */
-/* 
-@media screen and (max-width:$breakpoint-small){
-
-} */
+@media screen and (max-width: 880px) {
+  .box-th {
+    display: block;
+    flex-direction: column;
+  }
+  .box-th .text-left2 {
+    display: flex;
+    min-width: 100%;
+    height: 100%;
+    justify-content: center;
+  }
+  .box-th .text-right2 {
+    min-width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .container-flex .hours-box1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .container-flex .hours-box1 .atencion {
+    width: 100%;
+  }
+  .container-flex .hours-box1 .atencion-2 {
+    width: 100%;
+  }
+}
+/*
+================================
+-------query for iphone--------  
+================================
+*/
+@media screen and (max-width: 576px) {
+  body {
+    min-width: 100%;
+  }
+  body .background-img {
+    width: 100%;
+    display: block;
+    padding: 1rem;
+  }
+  body .background-img .nav-bar {
+    justify-content: space-between;
+    padding: 2rem 2rem;
+    margin-bottom: 3rem;
+  }
+  body .background-img .text-left {
+    min-width: 100%;
+    display: none;
+  }
+  body .background-img .text-left h3 {
+    font-size: 2.5rem;
+  }
+  body .background-img .text-right {
+    min-width: 100%;
+  }
+  body .background-img .text-right h1 {
+    font-size: 2.5rem;
+  }
+  body .background-img .list-nav {
+    min-width: 80%;
+  }
+  body .background-img2 {
+    min-width: 100%;
+  }
+  body .background-img2 .servicios-mid {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    position: initial;
+  }
+  body .background-img2 .servicios-mid .box-container {
+    display: grid;
+    margin-top: 1rem;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+  }
+  body .background-img2 .box-th .text-right2 {
+    display: flex;
+    flex-direction: column;
+  }
+  body .background-img2 .box-th .text-right2 h2 {
+    font-size: 2rem;
+  }
+  body .background-img2 .box-th .text-right2 p {
+    font-size: 1.6rem;
+  }
+  body .background-img2 .box-th .text-right2 .lefttex {
+    min-width: 100%;
+    gap: 1rem;
+  }
+  body .background-img2 .box-th .text-right2 .lefttex .text-2 {
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 5px 2px #823c3c;
+  }
+  body .background-img2 .box-th .text-right2 .righttex {
+    min-width: 100%;
+    gap: 1rem;
+  }
+  body .background-img2 .box-th .text-right2 .righttex .text-2 {
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 5px 2px #823c3c;
+  }
+  body .footer {
+    min-width: 100%;
+  }
+  body .footer .list-nav {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+  }
+  .proycts {
+    max-width: 300px;
+  }
+}
 
 /*# sourceMappingURL=index.css.map */

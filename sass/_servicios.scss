@@ -3,12 +3,26 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.title-service-1{
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    h2{
+        font-size: 2.5rem;
+        color: #823c3c;
+    }
+    
+}
 
 .proyects-container{
     width: 100%;
     margin: auto;
     padding: 40px;
     background-color: #F6F5F4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
    
 
     .pr-container{
@@ -52,6 +66,7 @@
 
         p{
             margin-top: 20px;
+            color: #F6F5F4;
         }
 
         .btn-proyetc{
@@ -92,6 +107,15 @@
         display: flex;
         margin-right: 2rem;
         white-space: nowrap;
+    }
+    
+    .box-trat{
+        display: inline-block;
+        h2{
+            margin: 0;
+            font-size: 2rem;
+            color: #823c3c;
+        }
     }
 
 

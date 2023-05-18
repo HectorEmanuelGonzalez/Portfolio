@@ -9,6 +9,23 @@
     .logo-nav{
         display: none;
     }
+
+
+    //query for horarios
+
+    .container-flex{
+        display: flex;
+        flex-direction: column;
+        .hours-box{
+            width: 100%;
+            justify-content: center;
+        }
+        .hours-box1{
+            width: 100%;
+            display: flex;
+        }
+
+    }
 }
 
 /*
@@ -18,11 +35,13 @@
 */
 
 
-
 @media screen and (max-width: $breakpoint-extra-large){
     body {
         height: 100%;
         width: 100%;
+
+
+        //section 1 main
         .background-img {
             width: 100%;
             height: 60rem;
@@ -142,6 +161,8 @@
         }
         
 
+        //section 2 main
+
         .background-img2 {
             width: 100%;
             
@@ -160,9 +181,6 @@
                         padding: 0px;
                     }
                 }
-            }
-            .box-th{
-
             }
         }
     
@@ -205,7 +223,55 @@
             height: 750px;
             background: rgba(0,0,0,0.5);
         }
+
+
+       //query for horarios
+
+        
+       .title2{
+        .conocenos{
+            .i{
+              font-size: 5rem;  
+            }
+        }
+
+       }
+       .container-flex{
+        display: flex;
+        flex-direction: column;
+       }
+
+        
     }
+
+    //query for service
+
+    .tratamientos{
+        min-width: 100%;
+        .title2{
+            min-width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .conocenos{
+                
+                p{
+                    font-size: 5rem;
+                }
+            }
+        }
+        .proyects-container{
+            display: flex;
+            flex-direction: column;
+            .title-proyects{
+                padding: 1rem;
+                margin: 0 auto;
+            }
+            
+        }
+
+    }
+
 }
 
 
@@ -213,11 +279,179 @@
 
 /*
 ================================
- -------query for iphonet--------  
+ -------query for tablet--------  
 ================================
 */
 
-/* 
-@media screen and (max-width:$breakpoint-small){
+ 
+@media screen and (max-width:$breakpoint-medium){
+   
+   
+    //section 2 main
+
+    .box-th{
+        display: block;
+        flex-direction: column;
+        .text-left2{
+            display: flex;
+            min-width: 100%;
+            height: 100%;
+            justify-content: center;
+        }
+        .text-right2 {
+            min-width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+        }
+          
+    }
+
+    //section horarios
+
+    .container-flex{
+        .hours-box1{
+            display: flex;
+            flex-direction: column;
+            .atencion{
+                width: 100%;
+            }
+            .atencion-2{
+                width: 100%;
+            }
+        }
+    }
+        
     
-} */
+} 
+
+
+
+
+/*
+================================
+-------query for iphone--------  
+================================
+*/
+
+
+@media screen and (max-width:$breakpoint-small){
+    body{
+        min-width: 100%; 
+        
+        
+        //section main
+
+        .background-img{
+            width: 100%;
+            display: block;
+            padding: 1rem;
+            .nav-bar {
+                justify-content: space-between;
+                padding: 2rem 2rem;
+                margin-bottom: 3rem;
+                .logo{
+
+                }
+            }
+            .text-left{
+                min-width: 100%;
+                display: none;
+                h3{
+                    font-size: 2.5rem;
+                }
+            }
+            .text-right{
+                min-width: 100%;
+                h1{
+                    font-size: 2.5rem;
+                }  
+            }
+            .list-nav{
+                min-width: 80%;
+            }
+        }
+
+
+
+        //section 2 main
+
+        .background-img2{
+            min-width: 100%;
+            .servicios-mid {
+                width: 100%;
+                height: auto;
+                display: inline-block;
+                position: initial;
+        
+                .box-container {
+                    display: grid;
+                    margin-top: 1rem;
+                    grid-template-columns: repeat(1, 1fr);
+                    grid-template-rows: repeat(6, 1fr);
+                }
+            }
+            .box-th{
+                .text-right2{
+                    display: flex;
+                    flex-direction: column;
+                    h2{
+                        font-size: 2rem;
+                    }
+                    p{
+                        font-size: 1.6rem;
+                    }
+                    .lefttex{
+                        min-width: 100%;
+                        gap: 1rem;
+                        .text-2{
+                            padding: 2rem;
+                            border-radius: 1rem;
+                            box-shadow: 0 0 5px 2px #823c3c;
+                        }
+                    }
+                    .righttex{
+                        min-width: 100%;
+                        gap: 1rem;
+                        .text-2{
+                            padding: 2rem;
+                            border-radius: 1rem;
+                            box-shadow: 0 0 5px 2px #823c3c;
+                        }
+                    }
+                }
+            }
+        }
+
+
+
+        //section main
+
+        .footer{
+            min-width: 100%;
+            .list-nav{
+                display: flex;
+                flex-direction: column;
+                padding: 2rem;
+            }
+        }
+        
+    }
+
+    //query for service
+
+    .proycts{
+        max-width: 300px;
+    }
+    
+
+    //query for horarios
+
+    .conocenos{
+        p{
+
+        }
+    }
+    
+    
+} 

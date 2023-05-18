@@ -37,6 +37,13 @@ body{
    text-transform: capitalize;
    font-size: 1.7rem;
  }
+ .btn-1{
+  transition: all ease .1s;
+  animation-name: colores ;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+ }
 
 
 
@@ -93,6 +100,26 @@ body{
   */
   
   $breakpoint-small: 576px;
-  $breakpoint-medium: 768px;
+  $breakpoint-medium: 880px;
   $breakpoint-large: 992px;
   $breakpoint-extra-large: 1200px;
+
+
+
+  /*
+================================
+  -------animaciones--------  
+================================
+  */
+
+@keyframes colores {
+0%{
+  border-color:  #f4ddb4;
+}
+50%{
+  border-color:  #ff7876;
+}
+100%{
+  border-color:  #823c3c;
+}
+}

@@ -18,25 +18,32 @@
     <div class="container">
         
         <header class="background-img tratamientos">
-            <div class="nav-bar">
+            <nav class="nav-bar">
                 <div class="logo">
-                    <a href="../index.html" class="svg-logo">
-                        <h2>DEBBO.</h2>
-                    </a>
+                    <a href="../index.html" id="debbo" class="svg-logo"><h2 class="fdebbo">DEBBO.</h2></a>
                 </div>
-                <ul class="list-nav">
-                    <li><a href="../index.html#servicios">servicios</a></li>
-                    <li><a href="./horarios.html">horarios</a></li>
-                    <li><a href="./horarios.html#precios">lista de precios</a></li>
-                    <li><a href="./nosotros.html">nosotros</a></li>
-                    <li><a href="./nosotros.html#ubi">donde nos encontramoss</a></li>
+                <div class="back_menu" id="back_menu"></div>
+                <ul class="list-nav" id="links">
+                    <div class="logo logo-nav">
+                        <a href="../index.html" id="debbo" class="svg-logo"><h2 class="fdebbo">DEBBO.</h2></a>
+                    </div>
+                    <li><a href="../index.html#servicios" id="linkss">servicios</a></li>
+                    <li><a href="./horarios.html" id="linkss">horarios</a></li>
+                    <li><a href="./horarios.html#precios" id="linkss">lista de precios</a></li>
+                    <li><a href="./pages/nosotros.html" id="linkss">nosotros</a></li>
+                    <li><a href="./pages/nosotros.html#ubi" id="linkss">donde nos encontramos</a></li>
                 </ul>
-
+    
                 <div class="btn-nav">
                     <a href="#" class="btn-1">reservar tu cita</a>
                 </div>
-
-            </div>
+                <div class="bars__menu" id="bars__menu">
+                    <span class="line1__bars-menu"></span>
+                    <span class="line2__bars-menu"></span>
+                    <span class="line3__bars-menu"></span>
+                </div>
+    
+            </nav>
 
             <div class="title2">
                 <div class="conocenos">
@@ -169,7 +176,7 @@
     </div>
 
 
-
+    <script src="../js/index.js"></script>
 
 </body>
 </html>

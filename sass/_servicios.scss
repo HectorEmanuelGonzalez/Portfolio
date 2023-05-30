@@ -23,6 +23,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
+    
    
 
     .pr-container{
@@ -36,13 +38,17 @@
 
     .proycts{
         width: 446px;
-        height: 556px;
         background-color: #222831;
         padding: 3rem;
         border-radius: 1rem;
         display: flex;
         flex-direction: column;
         gap: 2rem;
+        h3{
+            font-size: 2rem;
+            text-align: center;
+            text-transform: capitalize;
+        }
 
         .btn-proyetc{
             display: flex;
@@ -67,6 +73,7 @@
         p{
             margin-top: 20px;
             color: #F6F5F4;
+            margin-left: 10px;
         }
 
         .btn-proyetc{
@@ -94,14 +101,78 @@
             transition: all .3s;    
             }
         }
-    }
+        .imgproyectos{
+            max-width: 90%;
+            height: 40rem;
+            margin: 0 auto;
+            border: solid 1px #F6F5F4;
+            border-radius: 2rem;
+            overflow: hidden;
+            
+        }
+        .kera{
+            width: 90%;
+            background-image: url(../img/keratinaimg.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .ali{
+            width: 90%;
+            background-image: url(../img/alisadoimg.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .colo{
+            width: 90%;
+            background-image: url(../img/coloracionimg.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .peina{
+            width: 90%;
+            background-image: url(../img/peinados.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
 
-    .imgproyectos{
-        max-width: 800px;
-        img{
-            width: 65%;
+        //section nails
+
+
+        .semi{
+            width: 90%;
+            background-image: url(../img/esculpidas.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .escu{
+            width: 90%;
+            background-image: url(../img/aclirico.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .esma{
+            width: 90%;
+            background-image: url(../img/esmaltado.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .cappin{
+            width: 90%;
+            background-image: url(../img/capping.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
         }
     }
+
+    
 
     .title-proyects{
         display: flex;

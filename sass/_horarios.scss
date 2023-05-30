@@ -21,15 +21,15 @@
 }
 .atencion{
     width: 50%;
-    height: 50rem; 
     padding: 4rem;
    
 
     .hours-pelu{
-        height: 90%;
-        border: solid 1px;
-        border-color: #823c3c;
+        border:  1px;
+        border-radius: 1rem;
         padding: 2rem;
+        box-shadow: 5px 5px 10px;
+
         .title-l{
             text-align: center;
             text-transform: capitalize;
@@ -45,20 +45,35 @@
                 font-weight: 300;
             }
         }
+        .btn-reserva{
+            width: 90%;
+            margin: 2rem auto;
+            text-align: center;
+            border: solid 1px;
+            border-radius: 1rem;
+            border-color: #25D366;
+            transition: all ease .5s;
+            a{
+                color: #9ca3af;
+            }
+            a:hover{
+                color: #090909;
+            }
+        }
     }
 
 }
 
 .atencion-2{
     width: 50%;
-    height: 50rem; 
     padding: 4rem;
 
     .hours-nails{
-        height: 90%;
-        border: solid 1px;
-        border-color: #823c3c;
+        border: 1px;
+        border-radius: 1rem;
         padding: 2rem;
+        box-shadow: 5px 5px 10px;
+
 
         .title-r{
             text-align: center;
@@ -75,6 +90,71 @@
                 font-weight: 300;
             }
         }
+        .btn-reserva{
+            width: 90%;
+            margin: 2rem auto;
+            text-align: center;
+            border: solid 1px;
+            border-radius: 1rem;
+            border-color: #25D366;
+            transition: all ease .5s;
+            a{
+                color: #9ca3af;
+            }
+            a:hover{
+                color: #090909;
+            }
+        }
 
     }
+}
+.list-price{
+    width: 100%;
+    display: flex;
+    .price-nails{
+        width: 95%;
+        margin: 2rem auto;
+        border: 1px;
+        border-radius: 1rem;
+        padding: 2rem;
+        box-shadow: 5px 5px 10px;
+        .tb-1{
+            margin-top: 3rem;
+        }
+        table{
+            width: 100%;
+            padding: 1rem;
+            color: #121210;
+            font-size: 1.4rem;
+            table-layout: fixed;
+            border-collapse: collapse;
+            thead{
+                width: 80%;
+                background: rgb(130, 60, 60, 0.5);
+                tr{
+                    th{
+                        text-transform: capitalize;
+                        font-weight: 700;
+                        border-left: solid 2px rgb(130, 60, 60);
+                        padding: 1rem;
+                    }
+                }
+            }
+            tbody{
+                tr{
+                    td{
+                        padding: 1rem;
+                        border-bottom: solid 1px rgba(143, 12, 12, 0.2);
+                        text-align: center;
+                        text-transform: capitalize;
+                    }
+                }
+                tr:hover{
+                    background: #dccdcd;
+                }
+            }
+        }
+
+    }
+    
 }

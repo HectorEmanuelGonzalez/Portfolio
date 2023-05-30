@@ -1065,6 +1065,9 @@ main .card .debox img {
   .proycts {
     max-width: 300px;
   }
+  .tratamientos .title2 .conocenos p {
+    font-size: 3rem;
+  }
   .hours-pelu ul li p {
     font-size: 1rem;
   }

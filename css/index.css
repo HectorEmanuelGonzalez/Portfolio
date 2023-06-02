@@ -964,6 +964,12 @@ main .card .debox img {
   .container-flex .hours-box1 .atencion-2 {
     width: 100%;
   }
+  .table thead th {
+    font-size: 1rem;
+  }
+  .table tbody td {
+    font-size: 1rem;
+  }
   .ubi {
     width: 100%;
     display: flex;

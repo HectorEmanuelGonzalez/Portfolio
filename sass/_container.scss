@@ -1,9 +1,12 @@
 .background-img{
     width: 100%;
-    height: 70%;
-    background-color: #282626;
+    height: 70%; 
     display: flex;
     flex-wrap: wrap;
+    background-image: url(../img/fondobc.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     
     .nav-bar{
         width: 100%;
@@ -36,6 +39,7 @@
             border-color: antiquewhite;
             border-radius: 83px;
             padding: 8px  35px;
+            transition: all ease .5s;
         }
         .btn-1:hover{
             border-color: #823c3c;
@@ -51,7 +55,6 @@
         height: 100%;
         display: flex;
         align-items: center;
-       
         h3{
             padding: 70px;
             margin-bottom: 25rem;
@@ -80,14 +83,11 @@
     height: 70%;
     background-color: #F6F5F4;
     display: flex;
-
-
     .text-left2{
         width: 50%;
         height: 100%;
         display: flex;
         align-items: center;
-
         .tips{
             padding: 70px;
             margin-bottom: 25rem;
@@ -117,7 +117,8 @@
             
             .text-2{
                 width: 100%;
-
+                font-size: 1.2rem;
+                text-transform: capitalize;
             }
 
             
@@ -133,6 +134,8 @@
 
             .text-2{
                 width: 100%;
+                font-size: 1.2rem;
+                text-transform: capitalize;
             }
             
         }

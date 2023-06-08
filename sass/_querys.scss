@@ -39,7 +39,11 @@
     body {
         height: 100%;
         width: 100%;
-
+        .ahv{
+            a:hover{
+                color: #000000;
+            }
+        }
 
         //section 1 main
         .background-img {
@@ -471,7 +475,9 @@
     .tratamientos .title2 .conocenos p{
         font-size: 3rem;
     }
-    
+    .copy{
+        text-align: center;
+    }
 
     //query for horarios
 

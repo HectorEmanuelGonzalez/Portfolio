@@ -109,9 +109,12 @@ a:hover {
 .background-img {
   width: 100%;
   height: 70%;
-  background-color: #282626;
   display: flex;
   flex-wrap: wrap;
+  background-image: url(../img/fondobc.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .background-img .nav-bar {
   width: 100%;
@@ -136,6 +139,7 @@ a:hover {
   border-color: antiquewhite;
   border-radius: 83px;
   padding: 8px 35px;
+  transition: all ease 0.5s;
 }
 .background-img .btn-nav .btn-1:hover {
   border-color: #823c3c;
@@ -199,6 +203,8 @@ a:hover {
 }
 .background-img2 .text-right2 .lefttex .text-2 {
   width: 100%;
+  font-size: 1.2rem;
+  text-transform: capitalize;
 }
 .background-img2 .text-right2 .righttex {
   width: 50%;
@@ -210,6 +216,8 @@ a:hover {
 }
 .background-img2 .text-right2 .righttex .text-2 {
   width: 100%;
+  font-size: 1.2rem;
+  text-transform: capitalize;
 }
 
 .box-th {
@@ -324,6 +332,13 @@ main .card .debox img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.we {
+  background-image: url(../img/1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .title2 {
@@ -577,7 +592,7 @@ main .card .debox img {
 }
 .title-service-1 h2 {
   font-size: 2.5rem;
-  color: #823c3c;
+  color: rgba(244, 244, 244, 0.9);
 }
 
 .proyects-container {
@@ -765,6 +780,9 @@ main .card .debox img {
   body {
     height: 100%;
     width: 100%;
+  }
+  body .ahv a:hover {
+    color: #000000;
   }
   body .background-img {
     width: 100%;
@@ -1073,6 +1091,9 @@ main .card .debox img {
   }
   .tratamientos .title2 .conocenos p {
     font-size: 3rem;
+  }
+  .copy {
+    text-align: center;
   }
   .hours-pelu ul li p {
     font-size: 1rem;

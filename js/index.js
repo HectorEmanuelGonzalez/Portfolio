@@ -7,6 +7,19 @@ let nav = document.querySelector(".list-nav");
 let back = document.querySelector("#back_menu")
 let linkss = document.querySelector("#links")
 
+window.addEventListener('scroll', function() {
+  var scrollSections = document.querySelectorAll('.scroll-section');
+  var screenHeight = window.innerHeight;
+  
+  scrollSections.forEach(function(section) {
+    var sectionPosition = section.getBoundingClientRect().top;
+    
+    if (sectionPosition < screenHeight) {
+      section.classList.add('show');
+    }
+  });
+});
+
 
 function AnimationBars(){
     line1__bars.classList.toggle("activeline1__bars-menu");
